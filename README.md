@@ -11,8 +11,8 @@
 
 > **Original article:** 
 >
-> Mariana Ascensão-Ferreira, Rita Martins-Silva, Nuno Saraiva-Agostinho and Nuno L. Barbosa-Morais (2023).
-> [betAS: intuitive analysis and visualisation of differential alternative splicing using beta distributions]([url](https://www.biorxiv.org/content/10.1101/2022.12.26.521935v2)). *bioRxiv*
+> Mariana Ascensão-Ferreira, Rita Martins-Silva, Nuno Saraiva-Agostinho and Nuno L. Barbosa-Morais (2024).
+> [betAS: intuitive analysis and visualisation of differential alternative splicing using beta distributions]([url](http://www.rnajournal.org/cgi/doi/10.1261/rna.079764.123)). *RNA 30:337–353*
 
 
 betAS is a user-friendly **App** and **R package** that allows intuitive analysis and
