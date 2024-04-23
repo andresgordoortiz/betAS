@@ -171,7 +171,7 @@ betAS approach for alternative splicing analyses takes into account two metrics 
 
 - **F-statistic**: betAS also enables an ANOVA-like analysis of variance, comparing inter- and intra-group variabilities. For each event, within is considered the set of differences between each pair of samples that are part of the same group and between the set of differences between each pair of groups. The ratio of the median absolute values of between and within therefore provides an “F-like” statistic. This metric provides a compromise between the effect size of AS differences and their significance.
 
-- **FDR**: Random generation of points from a beta distribution is used to estimate the null distribution’s PSI and its precision. Then, one point is randomly selected from each of the sample’s null distribution and, keeping the samples’ group assignment (i.e., which samples belong to each group), the ∆PSI between groups under the null hypothesis is calculated. The process is repeated many times (10 000 by default) and the FDR is the proportion of ∆PSI random simulations that are larger than (i.e., more extreme) or equal to the empirical ∆PSI.
+- **FPR**: Random generation of points from a beta distribution is used to estimate the null distribution’s PSI and its precision. Then, one point is randomly selected from each of the sample’s null distribution and, keeping the samples’ group assignment (i.e., which samples belong to each group), the ∆PSI between groups under the null hypothesis is calculated. The process is repeated many times (10 000 by default) and the FPR is the proportion of ∆PSI random simulations that are larger than (i.e., more extreme) or equal to the empirical ∆PSI.
  
 
 #### 3.2) Between multiple groups
