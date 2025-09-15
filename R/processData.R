@@ -43,9 +43,9 @@ getDataset <- function(pathTables=NULL, tool){
 
     if (tool == "vast-tools"){
 
-      # Use the internal test dataset from sysdata.rda
-      incData <- testTable
-      colNames <- colnames(incData)
+      # Use the internal test dataset from sysdata.rda - it's already in the right format
+      # testTable is a list with PSI and Qual components
+      return(testTable$PSI)  # Return just the PSI component for compatibility
 
     } else if (tool == "rMATS"){
 
